@@ -1,9 +1,8 @@
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from "../logo.svg"
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
   { name: 'CSS', href: '/css', current: false },
   { name: 'JS', href: '/js', current: false },
 ]
@@ -32,16 +31,18 @@ export default function Header() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-8 w-auto lg:hidden rotate-180"
-                    src={Logo}
-                    alt="Your Company"
-                  />
-                  <img
-                    className="hidden h-8 w-auto lg:block rotate-180"
-                    src={Logo}
-                    alt="Your Company"
-                  />
+                  <a href='/'>
+                    <img
+                      className="block h-8 w-auto lg:hidden rotate-180"
+                      src={Logo}
+                      alt="Your Company"
+                    />
+                    <img
+                      className="hidden h-8 w-auto lg:block rotate-180"
+                      src={Logo}
+                      alt="Your Company"
+                    />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
