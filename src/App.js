@@ -1,9 +1,10 @@
 import Layout from "./components/layout";
+import Index from "./pages/index";
 
 function App() {
   return (
       <Layout>
-        <h1>hello</h1>
+        <Index />
       </Layout>
   );
 }
