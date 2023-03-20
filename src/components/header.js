@@ -32,7 +32,7 @@ export default function Header() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <a href='/'>
+                  <a href='/practices'>
                     <img
                       className="block h-8 w-auto lg:hidden rotate-180"
                       src={Logo}
