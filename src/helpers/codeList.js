@@ -2,17 +2,17 @@ const codeList = [
     {
         category: "CSS",
         title: "Motion",
-        url: "motion",
+        url: "cssMotion",
     },
     {
         category: "CSS",
         title: "Cursor Follow",
-        url: "cursorFollow",
+        url: "cssCursorFollow",
     },
     {
         category: "JS",
         title: "Test JS",
-        url: "testJs",
+        url: "jsTestJs",
     }
 ];
 
