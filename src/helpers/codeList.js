@@ -7,7 +7,12 @@ const codeList = [
     {
         category: "CSS",
         title: "Cursor Follow",
-        url: "ccssCursorFollow",
+        url: "cursorFollow",
+    },
+    {
+        category: "JS",
+        title: "Test JS",
+        url: "testJs",
     }
 ];
 
