@@ -13,7 +13,7 @@
     left: calc(50% - 10rem);
     width: 20rem;
     height: 20rem;
-    background: url('../assets/giphy-2.gif') 50% 50% no-repeat fixed;
+    background: url('../assets/cssCursorFollow/giphy-2.gif') 50% 50% no-repeat fixed;
     background-size: 150px 150px;
     border-radius: 50%;
   }
@@ -22,7 +22,7 @@
     opacity:0.45;
     -moz-opacity:0.45;
     filter:alpha(opacity=45);
-    background-image: url(../assets/giphy.gif);
+    background-image: url(../assets/cssCursorFollow/giphy.gif);
     background-repeat: no-repeat;
     position:absolute;
     height:48px;

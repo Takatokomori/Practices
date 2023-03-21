@@ -1,5 +1,6 @@
 import React from 'react'
 import $ from 'jquery'
+import "../styles/cssCursorFollow.css"
 
 export default function CssCursorFollow() {
   $(document).on("mousemove", function(e) {
