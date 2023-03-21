@@ -1,14 +1,14 @@
 import React from 'react'
 import $ from 'jquery'
+import "../styles/cssCursorFollow.css"
 
 export default function CssCursorFollow() {
-  jQuerycode = () =>{
+  $(document).on("mousemove", function(e) {
     var magic = $(".magic");
-    var magicWHalf = $magic.width() / 2;
-    $(document).on("mousemove", function(e) {
-      magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
-    });
-  }
+    var magicWHalf = magic.width() / 2;
+    magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
+  });
+
   return (
     <div className="scene">
         <div className="magic"></div>
