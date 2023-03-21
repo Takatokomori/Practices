@@ -9,7 +9,8 @@ function App() {
       <Layout>
         <Routes>
           <Route path="practices" element={<Index />} ></Route>
-          <Route path="practices/cssCursorFollow" element={<CssCursorFollow />} ></Route>
+          <Route path="practices/cssCursorFollow" 
+                 element={<CssCursorFollow />} ></Route>
         </Routes>
       </Layout>
     </BrowserRouter>

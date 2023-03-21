@@ -18,7 +18,7 @@ export default function IndexTable(props) {
         {codeList.map((data, i) =>{
             if(props.category === data.category){
                 return(
-                    <tr>
+                    <tr key={i}>
                     <td className='border border-slate-800
                                     text-center hover:text-purple
                                     p-1 font-bold'><Link to={data.url}>{data.title}</Link></td>
