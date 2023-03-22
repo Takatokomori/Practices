@@ -2,7 +2,7 @@ const codeList = [
     {
         category: "CSS",
         title: "Motion",
-        url: "cssMotion",
+        url: "cssMotionBar",
     },
     {
         category: "CSS",
