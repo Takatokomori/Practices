@@ -45,16 +45,16 @@
   .cursor{
     width: 200px;
     height: 200px;
-    background-color: #f4f4f4;
+    border: 0.5px solid #f4f4f4;
     border-radius: 50%;
     position: fixed;
+    /* transform: translate(-50%, -50%); */
   }
 
   .sample-size{
     height: 200px;
     width: 200px;
     position: relative;
-    margin:80px 50px 50px;
     padding: 20px;
   }
 
