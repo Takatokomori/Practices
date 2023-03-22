@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout";
+import CssAdultSwimBumpsCopy from "./pages/cssAdultSwimBumpsCopy";
 import CssCursorFollow from "./pages/cssCursorFollow";
 import CssMotionBar from "./pages/cssMotionBar";
 import Index from "./pages/index";
@@ -14,6 +15,8 @@ function App() {
                  element={<CssCursorFollow />} ></Route>
           <Route path="practices/cssMotionBar" 
                  element={<CssMotionBar />} ></Route>
+          <Route path="practices/cssAdultSwimBumpsCopy" 
+                 element={<CssAdultSwimBumpsCopy />} ></Route>
         </Routes>
       </Layout>
     </BrowserRouter>

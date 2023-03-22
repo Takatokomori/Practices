@@ -10,9 +10,9 @@ const codeList = [
         url: "cssCursorFollow",
     },
     {
-        category: "JS",
-        title: "Test JS",
-        url: "jsTestJs",
+        category: "CSS",
+        title: "Adult Swim Bumps Copy",
+        url: "cssAdultSwimBumpsCopy",
     }
 ];
 

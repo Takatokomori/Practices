@@ -10,6 +10,9 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    height:{
+      half: "50vh"
+    },
     colors: {
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
@@ -20,6 +23,7 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      "white": "#f4f4f4"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
