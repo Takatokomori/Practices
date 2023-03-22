@@ -10,6 +10,9 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    height:{
+      half: "50vh"
+    },
     colors: {
       'blue': '#1fb6ff',
       'purple': '#7e5bef',

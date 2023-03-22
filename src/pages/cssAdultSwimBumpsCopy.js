@@ -17,18 +17,19 @@ export default function CssAdultSwimBumpsCopy() {
         var dayName = dayNames[day];
         
   return (
-    <div className='program'>
-        <h1 className='text-white text-xl'>
+    <div className='flex flex-wrap flex-col items-center justify-center
+                    h-half w-auto bg-gray-dark program'>
+        <h1 className='text-white text-3xl'>
             <span className='text-blue'>{dayName}</span> Bump Lineup
         </h1>
-        <p className='text-white'>
+        <p className='text-white text-lg'>
             Lineup Reminders in <span className='text-pink'>Takachan's PC</span>
         </p>
-        <p className='text-white'>
-            His Trip was almost <span className='text-gray'>Cancelled</span>
-        </p>
-        <p className='text-white'>
+        <p className='text-white text-lg'>
             He started watching <span className='text-green'>Cartoon</span>
+        </p>
+        <p className='text-white text-lg'>
+            He hates <span className='text-gray'>Spending Money</span>
         </p>
     </div>
   )
