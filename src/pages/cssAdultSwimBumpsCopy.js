@@ -1,4 +1,5 @@
 import React from 'react'
+import AdultSwimBumpTable from '../components/adultSwimBumpTable';
 import "../styles/cssAdultSwimBumpsCopy.css"
 
 export default function CssAdultSwimBumpsCopy() {
@@ -15,7 +16,7 @@ export default function CssAdultSwimBumpsCopy() {
         var now = new Date();
         var day = now.getDay();
         var dayName = dayNames[day];
-        
+
   return (
     <div className='flex flex-wrap flex-col items-center justify-center
                     h-half w-auto bg-gray-dark program'>
@@ -31,6 +32,7 @@ export default function CssAdultSwimBumpsCopy() {
         <p className='text-white text-lg'>
             He hates <span className='text-gray'>Spending Money</span>
         </p>
+        <AdultSwimBumpTable />
     </div>
   )
 }
