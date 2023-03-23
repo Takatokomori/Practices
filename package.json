@@ -26,7 +26,9 @@
     "rm": "rm -rf docs",
     "mv": "mv build docs",
     "git": "git add . && git commit && git push origin develop",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
+    "deploy1": "npm run rm && npm run build && npm run mv && npm run git",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +50,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "react-router-dom": "^6.9.0",
     "tailwindcss": "^3.2.7",
