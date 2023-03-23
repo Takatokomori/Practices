@@ -5,7 +5,6 @@ export default function NoPage() {
   return (
     <div className='no-page flex flex-wrap flex-col items-center 
     justify-center h-half w-auto bg-gray-dark'>
-        {/* <h1>Opps!! You came to the wrong Place!!!!  </h1> */}
         <p className='opps text-xl lg:text-3xl p-10 text-center'>
             <span className='p-5'>Opps!! You found me!! </span>
             <br />
