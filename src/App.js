@@ -4,6 +4,7 @@ import CssAdultSwimBumpsCopy from "./pages/cssAdultSwimBumpsCopy";
 import CssCursorFollow from "./pages/cssCursorFollow";
 import CssMotionBar from "./pages/cssMotionBar";
 import Index from "./pages/index";
+import NoPage from "./pages/noPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
                  element={<CssMotionBar />} ></Route>
           <Route path="practices/cssAdultSwimBumpsCopy" 
                  element={<CssAdultSwimBumpsCopy />} ></Route>
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

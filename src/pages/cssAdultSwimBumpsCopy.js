@@ -1,6 +1,5 @@
 import React from 'react'
 import AdultSwimBumpTable from '../components/adultSwimBumpTable';
-import "../styles/cssAdultSwimBumpsCopy.css"
 
 export default function CssAdultSwimBumpsCopy() {
     var dayNames = [
