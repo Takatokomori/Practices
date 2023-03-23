@@ -16,10 +16,10 @@ export default function AdultSwimBumpTable() {
     <div className='flex flex-wrap flex-col items-start
                     justify-center content-start lineups'>
         {showLineup.map((lineup, i) =>(
-            <div className='flex flex-wrap flex-row items-start
+            <div key={i} className='flex flex-wrap flex-row items-start
             justify-center content-start lineup'>
-                <h1 className='text-white pr-1'>{showTime}</h1>
-                <h1 className='text-white' key={i}>{lineup}</h1>
+                <h1 className='text-white text-2xl pr-1'>{showTime}</h1>
+                <h1 className='text-white text-2xl' >{lineup}</h1>
             </div>
         ))}
     </div>
