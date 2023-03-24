@@ -123,7 +123,7 @@ div {
 }
 
 .rect:nth-child(7) {
-    left: 30vw;
+    left: 10vw;
     animation: slide-to-right-3 2s linear alternate infinite;
 }
 @keyframes slide-to-right-3 {
@@ -136,7 +136,7 @@ div {
         transform: translateX(0);
     }
     100% {
-        width: 40vh;
+        width: 30vh;
         transform: translateX(50%);
     }
 }
