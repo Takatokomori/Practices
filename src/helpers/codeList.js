@@ -13,7 +13,13 @@ const codeList = [
         category: "CSS",
         title: "Adult Swim Bumps Copy",
         url: "cssAdultSwimBumpsCopy",
+    },
+    {
+        category: "CSS",
+        title: "Ball Animation",
+        url: "cssBallAnimation",
     }
+
 ];
 
 export default codeList;
