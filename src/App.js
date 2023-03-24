@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout";
 import CssAdultSwimBumpsCopy from "./pages/cssAdultSwimBumpsCopy";
 import CssCursorFollow from "./pages/cssCursorFollow";
