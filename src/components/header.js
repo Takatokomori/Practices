@@ -1,20 +1,13 @@
 import { useState } from 'react'
-import { Dialog, Popover, Transition } from '@headlessui/react'
+import { Dialog, Popover } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import Logo from "../logo.svg"
 import codeList from "../helpers/codeList"
+import { Link } from 'react-router-dom'
 const codes = ["CSS", "JS"];
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -39,10 +32,10 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          {codeList.map((list, i)=>(
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
-          </a>
+          {codes.map((list, i)=>(
+            <Link to={"/practices/"+ list}
+            className="text-sm font-semibold leading-6 text-gray-900"
+            key={i}>{list}</Link>
           ))}
         </Popover.Group>
       </nav>
@@ -62,10 +55,10 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-              {codeList.map((list, i)=>(
-              <a href="#" className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                Features
-              </a>
+              {codes.map((list, i)=>(
+                <Link key={i} className="-mx-3 block rounded-lg 
+                py-2 px-3 text-base font-semibold leading-7 
+                text-gray-900 hover:bg-gray-50" to={"/practices/"+ list}>{list}</Link>
               ))}
               </div>
             </div>

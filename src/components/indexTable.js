@@ -27,6 +27,9 @@ export default function IndexTable(props) {
                     </tr>
                 )
             }
+            else{
+                return(null);
+            }
         })}
         </tbody>
     </table>
